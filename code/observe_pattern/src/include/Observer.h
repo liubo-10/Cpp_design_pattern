@@ -5,7 +5,7 @@
  * | @date    : 2024-04-18 |2024-09-06 |
  * --------------
  * | @brief   : three observers
- *               Observer1、Observer2、Observer3
+ *              Observer1、Observer2、Observer3
  ******************************************************************************/
 #include<iostream>
 
