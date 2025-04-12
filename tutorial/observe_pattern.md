@@ -3,14 +3,241 @@
 * 🌱 I’m currently learning harmony
 * 💞️ I’m looking to collaborate on ...
 * 📫 How to reach me ...
+* 📇 sssssdsdsdsdsdsdasd
+* 🎃 dsdsdsdsdsddfsgdgasd
+* 🍺 jyukyuiyuiyuigkasd
+* 🍥 fsdfgdsgsdgdgadsa
+* ✨ xcvxcvxcvxcvdasdaasd
+* 🍰 dazdsxasxsaxsaasdsa
+* 🚨 gdfgdshdfhfhygjtyu
+
+
+>
+> # 观察者模式（Observer Pattern）
 
 
 
-# 观察者模式（Observer Pattern）
+### 16. 观察者模式（Observer Pattern）
 
 
 
-## 设计模式背景
+
+
+## （一）什么是观察者模式
+
+
+
+
+
+观察者模式是一种行为型设计模式，它定义了一种一对多的依赖关系，让多个观察者对象同时监听一个主题对象的状态变化。当主题对象的状态发生改变时，所有依赖于它的观察者对象都会收到通知并自动更新。
+
+
+
+
+
+
+
+简单来说就是定义了⼀种⼀（被观察类）对多（观察类）的关系，让多个观察对象同时监听⼀个被观察对象，被观察对象状态发⽣变化时，会通知所有的观察对象，使他们能够更新⾃⼰的状态。
+
+
+
+
+
+
+
+观察者模式中存在两种⻆⾊：
+
+- **观察者**： 内部包含被观察者对象，当被观察者对象的状态发⽣变化时，更新⾃⼰的状态。（接收通知更新状态）
+- **被观察者**： 内部包含了所有观察者对象，当状态发⽣变化时通知所有的观察者更新⾃⼰的状态。（发送通知）
+
+
+
+
+
+
+
+
+
+
+
+## （二）为什么使用观察者模式
+
+1. 当⼀个对象的改变需要同时改变其他对象，且不知道具体有多少对象有待改变时，应该考虑使⽤观察者模式；
+2. ⼀个抽象模型有两个⽅⾯，其中⼀⽅⾯依赖于另⼀⽅⾯，这时可以⽤观察者模式将这两者封装在独⽴的对象中使它们各⾃独⽴地改变和复⽤。
+
+
+
+
+
+
+
+
+
+观察者模式：
+是讲有一个目标，众多个观察者去“观察”目标。目标是目标抽象类的一个派生类，观察者是观察者抽象类的一个派生类。当目标类的数据改变，所有对应的观察者对应去更新自己的状态。注意观察者处于被动地位，被观察者处理主动地位。
+应用场景
+比如有一个世界时钟程序，有多个图形时钟去显示比如北京时区，巴黎时区，等等。如果设置一个北京时间，那么其他时钟图形都需要更新（加上或者减去时差值）。典型的图形界面设计随处可见，一个温度程序，在温度湿度等条件改变时，要更新多种显示图形来呈现。
+————————————————
+
+                            版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。
+
+原文链接：
+
+
+
+# title
+
+hfghgh
+
+## fdfdf
+sdfgsgfg
+
+
+
+
+
+
+
+
+
+# 六、总结
+
+以上就是今天要讲的内容，后续会有更多内容。
+
+
+
+# 七、参考资料
+
+版权声明：本文参考了其他资料和CSDN博主的文章，遵循CC 4.0 BY-SA版权协议，现附上原文出处链接及本声明。
+1. ===
+1. 
+
+
+
+
+
+
+
+原文链接：https://blog.csdn.net/m0_56069910/article/details/136642360
+
+
+
+
+
+
+
+https://blog.csdn.net/weixin_68266812/article/details/136182188?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EYuanLiJiHua%7EPosition-2-136182188-blog-128379200.235%5Ev43%5Econtrol&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EYuanLiJiHua%7EPosition-2-136182188-blog-128379200.235%5Ev43%5Econtrol&utm_relevant_index=5
+
+
+
+
+
+——————————————————
+
+版权声明：
+
+本文引用了博主原创文章，著作权归作者所有。遵循 CC 4.0 BY-SA 版权协议，商业转载请联系作者获得授权，非商业转载请附上原文出处链接和本声明。
+
+本文是学习笔记，如有侵权，请联系删除。
+
+参考：
+
+链接：https://blog.csdn.net/hf872914334/article/details/88899326
+
+链接：https://blog.csdn.net/weixin_43310500/article/details/135966999
+
+链接：https://blog.csdn.net/weixin_45712636/article/details/124328504
+
+链接：https://blog.csdn.net/qq_41721746/article/details/120448698
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://blog.csdn.net/m0_56069910/article/details/136642360
+
+
+
+
+
+
+
+https://blog.csdn.net/linux_wgl/article/details/50178539
+
+
+
+
+
+
+
+
+
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -229,65 +456,19 @@ event1.emit("once1","xiaoming");
 
 
 
+（五）观察者模式优缺点
+优点：
 
+开闭原则：无需修改发布者的代码就能够引入新的订阅者
+可以在运行时建立对象之间的联系
+依赖倒置：让耦合的双方都依赖于抽象，而不是依赖于具体
+缺点：
 
+过多的更新操作：如果观察者很多，而且每个观察者对主题的状态变化都做出相应的反应，可能会导致系统的性能下降
+可能引起循环依赖： 如果观察者之间存在相互依赖，可能导致循环更新，从而影响系统的稳定性和可维护性。
+————————————————
 
-
-
-
-
-
-https://blog.csdn.net/weixin_68266812/article/details/136182188?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EYuanLiJiHua%7EPosition-2-136182188-blog-128379200.235%5Ev43%5Econtrol&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EYuanLiJiHua%7EPosition-2-136182188-blog-128379200.235%5Ev43%5Econtrol&utm_relevant_index=5
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-——————————————————
-
-版权声明：
-
-本文引用了博主原创文章，著作权归作者所有。遵循 CC 4.0 BY-SA 版权协议，商业转载请联系作者获得授权，非商业转载请附上原文出处链接和本声明。
-
-本文是学习笔记，如有侵权，请联系删除。
-
-参考：
-
-链接：https://blog.csdn.net/hf872914334/article/details/88899326
-
-链接：https://blog.csdn.net/weixin_43310500/article/details/135966999
-
-链接：https://blog.csdn.net/weixin_45712636/article/details/124328504
-
-链接：https://blog.csdn.net/qq_41721746/article/details/120448698
-
-
-
-
-
-
-
-
-
-
-
-
+                            版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。
 
 
 
