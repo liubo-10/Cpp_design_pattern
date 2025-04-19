@@ -21,14 +21,14 @@ class Subject
 public:
     void addObserver(Observer *obser, int msgid)
     {
+        // map添加数据的方法1
+        _subMap[msgid].push_back(obser);
+
         /**
-         * map添加数据的方法1：
-         * _subMap[msgid].push_back(obser)
          * 当_subMap[msgid]不存在时等价于
          * list<Observer*> mylist;
          * mylist.push_back(obser)
          * _subMap[msgid] = mylist */
-        _subMap[msgid].push_back(obser);
 
         // map添加数据的方法2：
         /*
