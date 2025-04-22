@@ -10,6 +10,7 @@
  * 
  **********************************************************/
 #include<iostream>
+#include <mutex>
 
 #include"Observer.h"
 #include"Subject.h"
@@ -17,6 +18,71 @@
 using std::cin;
 using std::cout;
 using std::endl;
+using std::mutex;
+
+class Singleton
+{
+private:
+    static Singleton *instance;
+    static std::mutex mutex_;
+    Singleton() {}
+
+public:
+    static Singleton *getInstance()
+    {
+        std::lock_guard<std::mutex> guard(mutex_);
+        if (instance == nullptr)
+        {
+            instance = new Singleton();
+        }
+        return instance;
+    }
+};
+Singleton *Singleton::instance = nullptr;
+std::mutex Singleton::mutex_;
+
+
+
+
+///  加锁的懒汉式实现  //
+
+class SingleInstance
+{
+
+public:
+    // 获取单实例对象
+    static SingleInstance *GetInstance();
+
+    //释放单实例，进程退出时调用
+    static void deleteInstance();
+	
+    // 打印实例地址
+    void Print();
+
+private:
+    // 将其构造和析构成为私有的, 禁止外部构造和析构
+    SingleInstance();
+    ~SingleInstance();
+
+    // 将其拷贝构造和赋值构造成为私有函数, 禁止外部拷贝和赋值
+    SingleInstance(const SingleInstance &signal);
+    const SingleInstance &operator=(const SingleInstance &signal);
+
+private:
+    // 唯一单实例对象指针
+    static SingleInstance *m_SingleInstance;
+    static std::mutex m_Mutex;
+};
+
+
+
+
+
+
+
+
+
+
 
 int main()
 {
