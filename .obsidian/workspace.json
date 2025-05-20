@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "0af8a3194e67da7b",
+    "type": "split",
+    "children": [
+      {
+        "id": "a16a9c0f3bcf0bfb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f6f25e07d664f3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_singleton_pattern/tutorial/C++设计模式_单例模式.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "C++设计模式_单例模式"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7d0baec9097224e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "24900abf20704110",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ffbf27c8e727465a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "ddd77b631150b9a3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "207c960d06eb6dd0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ad69ee2d36241b2c",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b2a668234e49001",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "677470f821412f22",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01_singleton_pattern/tutorial/C++设计模式_单例模式.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "C++设计模式_单例模式 的反向链接列表"
+            }
+          },
+          {
+            "id": "e05daa27decc5a7b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01_singleton_pattern/tutorial/C++设计模式_单例模式.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "C++设计模式_单例模式 的出链列表"
+            }
+          },
+          {
+            "id": "c75afcc7ba605617",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "a8b57061f1425cf5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01_singleton_pattern/tutorial/C++设计模式_单例模式.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "C++设计模式_单例模式 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "4f6f25e07d664f3d",
+  "lastOpenFiles": [
+    "01_singleton_pattern/code/example_01/src/Singleton_idler_lock2.cpp",
+    "01_singleton_pattern/code/example_01/src/Singleton_idler_lock copy.cpp",
+    "01_singleton_pattern/code/example_01/src/Singleton_idler_lock2.hpp",
+    "01_singleton_pattern/code/example_01/src/Singleton_idler_lock copy.hpp",
+    "02_observe_pattern/tutorial/observe_pattern.md",
+    "01_singleton_pattern/tutorial/C++设计模式_单例模式.md",
+    "00_overview/设计模式综述.md",
+    "C++设计模式.pdf"
+  ]
+}

@@ -5,7 +5,7 @@
  * | @version   @date
  * |  V1.0.0    2025-04-22
  * ---------------------------------------
- * | @brief   : Singleton example
+ * | @brief   : Singleton example 内部静态变量的懒汉实现
  ******************************************************************************/
 #ifndef _SINGLETON_IDLER_STATIC_HPP_
 #define _SINGLETON_IDLER_STATIC_HPP_

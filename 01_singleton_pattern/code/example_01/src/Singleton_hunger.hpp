@@ -5,7 +5,7 @@
  * | @version   @date
  * |  V1.0.0    2025-04-22
  * ---------------------------------------
- * | @brief   : Singleton example
+ * | @brief   : Singleton example 饿汉实现
  ******************************************************************************/
 #ifndef _SINGLETON_IDLER_LOCK_HPP_
 #define _SINGLETON_IDLER_LOCK_HPP_
