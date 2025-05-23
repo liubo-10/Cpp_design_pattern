@@ -20,7 +20,7 @@ class Singleton {
     // 获取单实例
     static Singleton* GetInstance();
 
-    // 释放单实例，进程退出时调用
+    // 释放单实例，进程退出时调用 显式销毁单例实例
     static void deleteInstance();
 
     // 打印实例地址

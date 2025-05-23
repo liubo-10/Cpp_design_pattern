@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_singleton_pattern/tutorial/C++设计模式_单例模式.md",
+                "file": "02_observe_pattern/tutorial/observe_pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C++设计模式_单例模式"
+              "title": "observe_pattern"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_singleton_pattern/tutorial/C++设计模式_单例模式.md",
+                "file": "02_observe_pattern/tutorial/observe_pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "C++设计模式_单例模式 的反向链接列表"
+              "title": "observe_pattern 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_singleton_pattern/tutorial/C++设计模式_单例模式.md",
+                "file": "02_observe_pattern/tutorial/observe_pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "C++设计模式_单例模式 的出链列表"
+              "title": "observe_pattern 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_singleton_pattern/tutorial/C++设计模式_单例模式.md",
+                "file": "02_observe_pattern/tutorial/observe_pattern.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "C++设计模式_单例模式 的大纲"
+              "title": "observe_pattern 的大纲"
             }
           }
         ]
@@ -170,12 +170,12 @@
   },
   "active": "4f6f25e07d664f3d",
   "lastOpenFiles": [
+    "01_singleton_pattern/tutorial/C++设计模式_单例模式.md",
     "01_singleton_pattern/code/example_01/src/Singleton_idler_lock2.cpp",
     "01_singleton_pattern/code/example_01/src/Singleton_idler_lock copy.cpp",
     "01_singleton_pattern/code/example_01/src/Singleton_idler_lock2.hpp",
     "01_singleton_pattern/code/example_01/src/Singleton_idler_lock copy.hpp",
     "02_observe_pattern/tutorial/observe_pattern.md",
-    "01_singleton_pattern/tutorial/C++设计模式_单例模式.md",
     "00_overview/设计模式综述.md",
     "C++设计模式.pdf"
   ]
